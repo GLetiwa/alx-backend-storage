@@ -1,6 +1,6 @@
 -- Creates a stored procedure that computes and store the average score for a student
 
-DELIMETER $$
+DELIMITER $$
 
 DROP PROCEDURE IF EXISTS ComputeAverageScoreForUser;
 CREATE PROCEDURE ComputeAverageScoreForUser (IN user_id INT)
@@ -12,4 +12,4 @@ BEGIN
 
 END $$
 
-DELIMETER ;
+DELIMITER ;
